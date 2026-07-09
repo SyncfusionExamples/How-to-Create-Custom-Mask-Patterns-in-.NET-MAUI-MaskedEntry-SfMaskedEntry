@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:editors="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
+             x:Class="MaskedEntrySample.MainPage">
+
+
+    <VerticalStackLayout WidthRequest="250" Padding="20">
+
+        <editors:SfMaskedEntry x:Name="productKeyEntry"
+                       Placeholder="Enter order ID"
+                       ClearButtonVisibility="WhileEditing"
+                       MaskType="Simple"
+                       Mask="ORD-00000-LL"
+                       ValidationMode="KeyPress"
+                       PromptChar="#">
+            
+        </editors:SfMaskedEntry>
+
+    </VerticalStackLayout>
+</ContentPage>
