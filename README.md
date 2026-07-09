@@ -20,7 +20,7 @@ This approach enables flexible input handling while ensuring that data is entere
 
 ## Example Scenario
 
-Consider an input field that accepts only uppercase alphabetic characters using a custom mask pattern:
+Consider an input field that for custom order ID pattern that combines uppercase letters, digits, and literal separators to enforce a structured identifier
 
 **MainPage.xaml**
 ```
