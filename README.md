@@ -23,4 +23,20 @@ This approach enables flexible input handling while ensuring that data is entere
 Consider an input field that accepts only uppercase alphabetic characters using a custom mask pattern:
 
 **MainPage.xaml**
-
+```
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:editors="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
+             x:Class="MaskedEntrySample.MainPage">
+    
+    <VerticalStackLayout>
+        <editors:SfMaskedEntry x:Name="productKeyEntry"
+                       Placeholder="Enter order ID"
+                       ClearButtonVisibility="WhileEditing"
+                       MaskType="Simple"
+                       Mask="ORD-00000-LL"
+                       ValidationMode="KeyPress"
+                       PromptChar="#"/>
+    </VerticalStackLayout>
+</ContentPage>
+```
