@@ -12,7 +12,6 @@
                        ClearButtonVisibility="WhileEditing"
                        MaskType="Simple"
                        Mask="ORD-00000-LL"
-                       ValidationMode="KeyPress"
                        PromptChar="#">
             
         </editors:SfMaskedEntry>
