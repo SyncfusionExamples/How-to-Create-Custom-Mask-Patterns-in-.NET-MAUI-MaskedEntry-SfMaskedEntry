@@ -35,7 +35,6 @@ Consider an input field that for custom order ID pattern that combines uppercase
                        ClearButtonVisibility="WhileEditing"
                        MaskType="Simple"
                        Mask="ORD-00000-LL"
-                       ValidationMode="KeyPress"
                        PromptChar="#"/>
     </VerticalStackLayout>
 </ContentPage>
